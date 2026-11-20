@@ -1,8 +1,13 @@
 [
     "You can open your character sheet by pressing C",
     "Reading this fills you with determination",
+    "Pressing T while hovering over a token will toggle targetting them.",
+    "Pressing Shift + B will toggle the compendium browser for easy use",
     {
         "speaker": "A whisper on the wind",
         "text": "The shadows watch your every move..."
-    }
+    },
+    "Pressing E or Q will move your token vertically",
+    "You can use WASD or the arrow keys to move without the movement ruler",
+    "Holding control while dragging your token will let you place movement waypoints"
 ]
