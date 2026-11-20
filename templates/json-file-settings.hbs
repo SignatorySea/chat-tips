@@ -1,0 +1,30 @@
+<form>
+    <section class="json-file-list">
+        {{#each files as |file index|}}
+            <div class="json-file-entry">
+                <div class="json-file-info">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>{{file}}</span>
+                </div>
+
+                <button
+                    type="button"
+                    class="remove-file"
+                    data-index="{{index}}"
+                    title="Remove file"
+                >
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+        {{else}}
+            <p>No JSON files configured.</p>
+        {{/each}}
+    </section>
+
+    <footer>
+        <button type="button" class="add-file">
+            <i class="fa-solid fa-plus"></i>
+            Add JSON File
+        </button>
+    </footer>
+</form>

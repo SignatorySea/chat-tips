@@ -1,0 +1,22 @@
+{
+  "id": "chat-tips",
+  "title": "Sig's Chat Tips",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Whisper a helpful loading message to users as they join.</p>",
+  "authors": [
+    {
+      "name": "Sig",
+      "discord": "SignatorySea",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules":["scripts/chattips.mjs"],
+  "styles": ["styles/chattip.css"]
+}

@@ -1,0 +1,73 @@
+/* Outer chat card container */
+.chat-message.welcome-whisper-card {
+  background: #ddd6a5;
+  border: 1px solid #a89b6e;
+  border-left: 4px solid #7a2e22; /* Deep wax-seal crimson accent */
+  color: #2b2416;
+}
+
+/* Speaker alias header ("Did you know?") */
+.chat-message.welcome-whisper-card .message-header .message-sender .title {
+  color: #6b2419;
+  font-weight: bold;
+}
+
+/* Timestamp & whisper metadata ("Whispered to...") */
+.chat-message.welcome-whisper-card .message-header .message-metadata,
+.chat-message.welcome-whisper-card .subtitle{
+  display: none;
+}
+
+/* Message body text */
+.chat-message.welcome-whisper-card .message-content {
+  font-style: italic;
+  color: #261f12; 
+}
+
+
+/* Hide the chat icon image */
+.chat-message.welcome-whisper-card .message-header .avatar,
+.chat-message.welcome-whisper-card .message-header .portrait {
+  display: none;
+}
+
+
+
+.json-file-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.json-file-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border: 1px solid var(--color-border-light-2);
+    border-radius: 4px;
+}
+
+.json-file-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.json-file-info i {
+    color: var(--color-text-secondary);
+}
+
+.remove-file {
+    flex: 0 0 auto;
+    width: 32px;
+    padding: 4px;
+}
+
+.remove-file:hover {
+    color: var(--color-level-error);
+}
